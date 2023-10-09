@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 700px;
+  height: 500px;
+  margin: 60px;
+}
+
+main .new {
+  position: relative;
+  margin-top: -200px;
+  margin-right: 150px;
+}

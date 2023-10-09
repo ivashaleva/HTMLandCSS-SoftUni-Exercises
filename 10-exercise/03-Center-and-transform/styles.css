@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+}
+
+.card img {
+  position: absolute;
+}
+
+.card a {
+  background-color: rgb(0, 153, 0);
+}
+
+.card h3 {
+  font: 1em/1.2 Georgia , serif;
+}
