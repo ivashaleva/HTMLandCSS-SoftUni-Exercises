@@ -1,0 +1,11 @@
+
+body{
+  display: flex;
+}
+.gallery ul{
+  display: flex;
+  justify-content: space-between;
+}
+.gallery li{
+  display: flex;
+}

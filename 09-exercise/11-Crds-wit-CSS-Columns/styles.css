@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(238,238,238);
+  margin: 30px;
+}
+.cards-layout{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+}
+.masonry{
+  border: 1px solid rgb(203, 201, 201);
+  border-radius: 0.5em;
+  box-shadow: 0 0 8px 1px black;
+  height: fit-content;
+}
+.masonry img{
+  width: 100%;
+}
+.masonry p{
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  line-height: 1.35;
+}
+.masonry footer{
+  margin-top: auto;
+  border-top: 1px solid rgb(203, 201, 201);
+}
+.masonry h3 {
+  padding-left: 15px;
+}
+
+.masonry:nth-child(3n + 2),
+.masonry:nth-child(3n + 3) {
+  grid-row-end: span 2;
+}
+.masonry:nth-child(3n + 3) {
+  grid-row-end: span 4;
+}
+.masonry:nth-child(3n + 3) {
+  grid-row-end: span 3;
+}
+.masonry:nth-child(3n + 4) {
+  grid-row-end: span 3;
+}
